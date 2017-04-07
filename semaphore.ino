@@ -4,7 +4,7 @@ void semaphoreCommand(int x, int y) {
   delay(50);
   Serial.println("powerON");
   digitalWrite(semaphorePower[x - 1], LOW);
-  delay(200);
+  delay(50);
   Serial.println("powerOFF");
   digitalWrite(semaphorePower[x - 1], HIGH);
   delay(50);

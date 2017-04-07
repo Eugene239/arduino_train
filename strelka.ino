@@ -3,7 +3,7 @@ void strelkaCommand(int x, int y){
   delay(50);
   //Serial.println("powerON");
   digitalWrite(strelkaPower[x - 5], LOW);
-  delay(400);
+  delay(50);
   //Serial.println("powerOFF");
   digitalWrite(strelkaPower[x - 5], HIGH);
   delay(50);
